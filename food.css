@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+header {
+    background: #ffcc00;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.recipe {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-weight:900;
+    
+}
+header img{
+    width:99px;
+    height:100px;
+    margin-right:100rem;
+    border-radius:50%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#backToTop {
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #ffcc00; /* Button color */
+    color: #333; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    display: none; /* Initially hidden */
+    
+    
+}
+
+#backToTop:hover {
+    background-color: #e6b800; /* Darker shade on hover */
+}
+#contact{
+    text-align:center;
+    border:1px solid grey;
+    font-size:800;
+    font-weight:bold;
+}
+#contact input{
+   width:300px;
+   height:30px;
+   
+}
+#about{
+    text-align:center;
+    border:1px solid grey;
+}
+#about img{
+    height:300px;
+    width:500px;
+}
+button{
+    background-color:black;
+    color:white;
+    height:40px;
+    width:80px;
+    padding:1px;
+    margin:10px;
+    cursor:pointer;
+}
